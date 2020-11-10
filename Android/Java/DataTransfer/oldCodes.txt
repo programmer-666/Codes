@@ -1,0 +1,182 @@
+look : https://droidbyme.medium.com/android-material-design-tabs-tab-layout-with-swipe-884085ae80ff
+
+
+package com.example.datatransfer;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class Sharp extends AppCompatActivity {
+    TextView txv;
+    Button[] btns = new Button[5];
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sharp);
+        txv = (TextView)findViewById(R.id.textView2);
+        txv.setText(getIntent().getStringExtra("username"));
+        btns[0] = (Button)findViewById(R.id.button2); // OUT    0
+        btns[1] = (Button)findViewById(R.id.buttonWallet); // WALLET    1
+        btns[2] = (Button)findViewById(R.id.buttonProfile); // PROFILE    2
+        btns[3] = (Button)findViewById(R.id.buttonSend); // SEND 3
+        btns[4] = (Button)findViewById(R.id.buttonGet); // GET    4
+        // DEFENDING
+        btns[0].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goBase = new Intent(getBaseContext(), MainActivity.class);
+                startActivity(goBase);
+            }
+        });
+        btns[1].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showSelectedPage(btns[1]);
+            }
+        });
+        btns[2].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showSelectedPage(btns[2]);
+            }
+        });
+        btns[3].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showSelectedPage(btns[3]);
+            }
+        });
+        btns[4].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showSelectedPage(btns[4]);
+            }
+        });
+    }
+    public void showSelectedPage(Button btn){
+        for (Button hb:btns){hb.setBackgroundColor(Color.rgb(41, 41, 41));}
+        // OTHER BUTTONS BCKG
+        btn.setBackgroundColor(Color.rgb(48, 48, 48)); // ACTIVE DIR BCKG
+    }
+}
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sharp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="#1C1C1C"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="OUT" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#252525"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonWallet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#292929"
+            android:text="WALLET" />
+
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#292929"
+            android:layout_weight="1"
+            android:text="PROFILE" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#292929"
+            android:text="SEND" />
+
+        <Button
+            android:id="@+id/buttonGet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#292929"
+            android:layout_weight="1"
+            android:text="GET" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewUsdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="center"
+            android:text="244.34USDT"
+            android:textSize="30dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textViewHash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="1c515581917ffb0fdff67766cbd79bad"
+            android:visibility="invisible" />
+    </GridLayout>
+
+</LinearLayout>
