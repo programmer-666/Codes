@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MusicplayerV2</string>
+    <string name="play"><![CDATA[>]]></string>
+    <string name="square">#</string>
+</resources>
