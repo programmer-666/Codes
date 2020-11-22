@@ -42,7 +42,7 @@ public class Sharp extends AppCompatActivity {
         includeitem = (View)findViewById(R.id.includeitem0);
         includeitem1 = (View)findViewById(R.id.includeitem1);
         includeitem2 = (View)findViewById(R.id.includeitem2);
-        // DEFENDING
+        // DEF
 
         // tab
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
