@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalcR</string>
+    <string name="toplama">+</string>
+    <string name="cikarma">-</string>
+    <string name="carpma">*</string>
+    <string name="bolme">/</string>
+    <string name="uslama">^</string>
+    <string name="mod">%</string>
+    <string name="kok">√</string>
+</resources>
