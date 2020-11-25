@@ -1,0 +1,50 @@
+# Temel Sınıflar #
+QtCore: GUI işlemlerinde çekirdek modül. Zaman, dosya, klasörler, iş parçacıkları, veri tipleri ve süreçler gibi.
+QtGui: Olay yönetimi, 2d grafikler, metin, fonti imaj sistemlerini kapsar.
+QtWidgets: Gui için gerekli bileşenleri içerir.
+QtBluetooth: Bluetooth ile ilgili sınıfları kapsar.
+QtNetwork: Ağ işlemlerini kapsar.
+QtPositioning: Jeo-lokasyon belirleme araçlarını yöneten sınıfları kapsamaktadır.
+Engino: Qt bulut hizmetlerine ilişkin kullanıcı tarafı kütüphanelerine erişimi sağlar.
+QtWebSockets: Websocket protokolü ile ilgili sınıfları barındırır.
+QtWebKit: Web tarayıcı uygulamalarında temel oluşturan sınıfları kapsar.
+QtWebKitWidgets: Web tarayıcılarla bağlantılı görsel bileşen araçlarını barındırır.
+QtXml: Xml dosyaları ile çalışmakyı sağlar.
+QtSvg: Vektörel grafik gösterimleriyle ilgili sınıflardan oluşur.
+QtSql: Veritabanı ile ilgili sınıfları barındırır.
+
+# Temel Pencere Araçları #
+QtLabel: Etiket, yazı.
+QtPushButton: Basılabilir buton.
+QtLineEdit: Satır girişi.
+QRadioButton: Tanımlı grup içinden seçim yapma aracı.
+QCheckBox: Opsiyon belirleme aracı.
+QComboBox: Tanımlı pencereden popup yoluyla eleman seçmek aracı.
+QListWidget: Liste bileşeni.
+QListWidgetItem: Liste bileşeni elemanları.
+QCalendarWidget: Takvim.
+QSplitter: Ayraç bileşeni.
+QMessageBox: Mesaj bileşeni.
+
+# Pencere Araçlarının Yerleşimi #
+QVBoxLayout: Düşey kutu yerleşimi (y).
+QHBoxLayout: Yatay kutu yerleşimi (x).
+QFormLayout: Form yerleşimi.
+QGridLayout: Izgara yerleşimi.
+
+# Ana Pencere Araçları #
+QMenuBar: Menü çubuğu.
+QMenu: Menü.
+QAction: Aksiyon.
+QToolBar: Araç çubuğu.
+QStatusBar: Durum çubuğu.
+QSlider: Kaydırma çubuğu.
+QProgressBar: İzleme çubuğu.
+
+# Standart Dialoglar #
+QColorDialog: Renk seçimi yapılmasını sağlar.
+QFileDialog: Klasör ve dosya seçimi yapılmasını sağlar.
+QFontDialog: Yazı tiplerinin seçilmesini sağlar.
+QInputDialog: Girdi dialoğu.
+QPrintDialog: Yazdırma dialoğu.
+QProgressDialog: İzleme dialoğu.

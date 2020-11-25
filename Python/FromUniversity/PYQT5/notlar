@@ -1,0 +1,11 @@
+qtcore - gui ihytiyaç duymayan temel bileşenler
+qtgui - gui
+qtnetwork - ağ ve internet
+qtsql - veritabanı bilgi alışverişi
+qtopengl - opengl ike grafik kartıyla hızlandırılan uygulamalar
+qtscript - uygulamaya betik desteği
+qtsvg - svg dosyalarını görüntüler
+qtxml - xml dosyalarını işlemede kullanılır
+designer - gui tasarımı
+assistant - qt belgeleri arasında dolaşmak için
+linguist - çeviri işleri için

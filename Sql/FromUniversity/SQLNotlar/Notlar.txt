@@ -1,0 +1,58 @@
+[SQL_KODLARI]
+- Temel - 
+	SELECT: Veri okumak için.
+	UPDATE: Veri güncellemek için.
+	DELET: Veri silmek için.
+	INSERT INTO: Veri girmek için.
+	
+	CREATE DATABASE, TABLE: Veritabanı veya tablo oluşturmak için.
+	ALTER DATABASE,TABLE: Mevcut veritabanı/tablo özelliklerinde işlem yapmak için kullanılır.
+	DROP TABLE: Tabloyu siler.
+
+	- SQL Veri Tipleri (Genel) -
+		CHARACTER(n): Belirtilen n sayısına kadar karakter depolar. n kadar yer doldurulur.
+		VARCHAR(n): Belirtilen n sayısına kadar karakter alır, boşlukları almaz.
+		BOOLEAN: 1 ve 0 değerleri alır.
+		BINARY(n): Metinsel olarak binary değerleri n ile belirtilen kadar depolar.
+		INTEGER: Tam sayı, 4byte.
+		SMALLINT: 2Byte.
+		TINYINT: 1byte.
+		BIGINT: 8byte.
+		DECIMAL(p,s): p rakam, s virgül sonrası.
+		FLOAT(p): Belirtilen değer kadar reel sayı depolar.
+		DATE: Tarih.
+		TIME: Saat, dakika, saniye.
+- MSSQL Veri Tipleri - 
+	char(n): Belirtilen boyut kadar yer kaplar.
+	varchar(n)(max): Belirtilen boyuta kadar yer tutar, boşlukları almaz.
+	text: 2GB metinsel yer kaplar.
+	nchar(n): unicode veri kaplar, char ile aynı.
+	nvarchar, nvarchar(max), ntext
+	bit: 1 ve 0
+	image: en fazla 2gb resim dosyaları.
+	datetime: 8byte tarih saklar.
+	time: saat
+	timestamp: tarih saat saniye salise
+
+- CREATEA DATABASE - 
+	CREATE DATABASE DATABASE_NAME;
+- CREATE TABLE - 
+	CREATE TABLE TABLE_NAME (alan tip, alan tip);
+- CONSTRAINTS - 
+	CREATE TABLE TABLE_NAME (alanadi tip() constraintadi());
+	*not null
+	*unique
+	*primary key
+	*foreign key
+	*check
+	*default
+	
+	- MSSQL Kullanım -
+		CREATE TABLE T_N (alan tip() CONSTRAINT_NAME);
+		ALTER TABLE T_N A ADD CONSTRAINT_NAME(alan);
+		ALTER TABLE T_N ADD CONSTRAINT alan, alan CONSTRAINT_NAME; # Çoklu, create table ile kullanılabilir.
+		ALTER TABLE T_N DROP CONSTRAINT alan;
+
+- Foreign Key - 
+	CREATE TABLE T_N (alan tip() FOREIGN KEY REFERENCES falan(alan_id));
+	ALTER TABLE T_N DROP FOREIGN KEY alan;

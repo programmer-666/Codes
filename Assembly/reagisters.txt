@@ -1,0 +1,117 @@
+# KAYNAKLAR #
+http://web.karabuk.edu.tr/emelkocak/indir/MTM305/Adresleme%20Modlar%C4%B1.pdf
+http://teknoelektrik.com/blog-37/mikroislemcilerde-cpu-registerlari.html
+# # # # # # #
+- Registerler - 
+	Mikroişlemciler register adı verilen 14 adet özel lokasyon barındırır. Her biri 16 bit olan özel işlemci bellekleri diyebiliriz.
+	Registerlar ile yapılan işlemler belleğe göre daha hızlıdır.
+
+	8086/8088 Registerları:
+		*4x Segment Registerları
+		*8x Genel amaçlı register
+			*4x Data Registerlar
+			*4x Pointer ve index registerları
+		*1x Instruction pointer
+		*1x Program status word
+	
+	Bu 14 registerın 4 tanesi CODE, DATA, STACK ve EXTRA segmentlerin başlangıç adreslerini saklayan CS, DS, SS ve ES registerleridir.
+	Bu 4 registere genel olarak segment registeri denir. Geriye kalanlardan 8 tanesi genel amaçlı, 1 tanesi ip (komut gösterici) ve sonuncusu
+	psw (durum göstergeci) registeridir. Psw registerine flag adı verilir.
+
+	- Data Registerları - 
+		Genellikle aritmetiksel işlemler için kullanılırlar. AX, BX, CX ve DX registerlarıdır. Diğerlerinin aksine bunlar bir bütün
+		veya iki ayrı parça halinde kullanılabilirler.
+
+		Bir DATA register 2 alt alana bölebilir böylece registeri 16 bitlik bir tek register halinde veya 8 bitlik iki ayrı register
+		halinde kullanma imkanına sahip olabiliriz.
+
+		16 Bit uzunluğundaki herhangi bir data registerinen harhangi birisinin yüksek seviyeli kısmına "high order" denir ve h ile gösterilir.
+		Alçak seviyeli kısım "low order" ise l harfi ile ifade edilir.
+		
+		AX -> AH AL
+		BX -> BH BL
+		CX -> CH CL
+		DX -> DH DL 
+		
+		Olarak isimlendirilir ve 8 bitlik registerlar elde edilir.
+		
+		Bu 8 bit registerlerden birinin değerinin değiştirilmesi ile, kendisini kapsayan 16 bit registerinin değerinin de değişeceği ve bunun tersinin de mümkün olacağı açıktır. 
+		Fakat bir 16-bit registerin herhangi bir yarımı üzerinde yapılan işlem diğer yarımı üzerinde değişikliğe yol açmayacaktır. 
+		Data registerlerinin dışında kalan registerlerinin dışında kalan registerlerin, bu şekilde alt alanlara bölenemeyeceği şekil üzerinde de gösterilmiştir. 
+		Ancak flag registerleri için daha da farklı bir kullanım söz konusudur. 
+
+		Data registerları genel amaçlıdırlar. Diğer taraftan belirli data registerlerinin belirli işlemler sırasında operand olarak kullanılması
+		zorunludur.
+	
+		AX (AKÜMÜLATÖR): Çarpma, bölme, giriş, çıkış ve bazı string operasyonlarında word uzunluklu olarak kullanılır.
+		AL: Byte uzunluklu olup, bazı operasyonların sayaç registeri olarak veya desimal amaçlı aritmetiksel işlemlerde transfer alanı 
+		(alıcı alan registeri) olarak kullanılır.
+		AH: Byte adreslenmesinde kullanılır.
+		CX: Sayaç registeridir, LOOP komutlarının veya tekrarlı string operasyonlarının sayaç registeri olarak kullanılır. 
+		CL: Shift ve rotate sayacı olarak kullanılabilir.
+		DX: Word uzunluklu çarpma ve bölme operasyonlarında ayrıca i/o operasyonları için port numarası göstermede kullanılır.
+
+		Özetle
+			8086'da bulunan bütün iç registerlar ve veri yolları 16 bit genişliğindedir. Veri yolu 16, adres yolu ise 20 bittir.
+			80806, 1MB'lık hafıza bloğunu adresleyebilir(1M = 2^20).
+			
+			AX: Akümülatör - AH AL
+			BX: Adres başlangıcı - BH BL
+			CX: Sayaç - CH CL
+			DX: Veri - DH DL
+			SI: Kaynak indexi
+			DI: Hedef indexi
+			BP: Temel pointer
+			SP: Stack pointer
+			
+			4 Genel amaçlı register (AX, BX, CX, DX), 2 8 bitlik register olarak kullanılabilir.
+				AX = 3A39h ise AH = 3Ah, AL = 39h // 8 bitlik registerler değişirse 16 bitlik registerler de değişir
+
+	- Segment Registerları - 
+		x88, x86 işlemcisi kullanan bilgisayarlar programların veya dataların belleğin iki ayrı alanına yerleştirirler. Bu program
+		ve data alanları max 64KB büyüklüğünde olup segment olarak isimlendirilir. x88 işlemcisi aynı anda 4 ayrı segmente sahip olabilir.
+		Bu segmentler CODE, DATA, STACK ve EXTRA segment olarak isimlerndirilir.
+		
+		CODESEGMENT registerı (CS) icra gören programı içeren segmentin başlangıç adresini gösterir. Diğer bir değişle, CS ile adreslenen
+		segment içinde makine dili komutları bulunur.
+		
+		STACKSEGMENT (SS) registeri geçerli stack segmentinin başlangıç adresini getirir. Stack segment, çeşitli verilerin geçici olarak saklandığı bir bellek bloğudur. 
+
+		DATASEGMENT (ds) registeri geçerli data segmentinin başlangıç adresidir. Yani, bilgi işlem operasyonlarına tabi tutulan bilgiler, data segment içerisindeki lokasyonlarda yer alır.
+
+		EXTRASEGMENT (es) registeri geçerli extra segmentin başlangıç adresini içerir. ES genel olarak string operasyonları için kullanılır. Yeterli bellek büyüklüğüne sahip olan sistemlerde bu 4 segment belleğin farklı parçalarıdır. Geniş belleğe sahip olmayan
+		sistemlerdeyse bu segmentler üst üste gelebilir.
+
+		Özetle
+			CS: Code segment mevcut programın bulunduğu bölümü işaretler.
+			DS: Data segment Genellikle programda bulunan değişkenlerin bulunduğu bölümü işaretler.
+			ES: Extra segment Kullanımı kullanıcıya bırakılmıştır.
+			SS: Stack segment Yığının bulunduğı bölümü işaretler.
+
+			Segmentlerde veri depolamak iyi bir fikir değildir. Özel amaçları vardır hafızada ulaşılabilir bazı bölümleri işaretlerler.
+			SR'ları genel amaçlı registerlar ile birlikte çalışarak hafızada herhangi bir bölgeyi işaretleyebilir.
+
+				Örnek:
+					Fiziksel adres 12345h işaretlenmesi isteniyorsa DS = 1230h, SI = 0045h olmalıdır.
+
+				CPU segment registerı 10h ile çarpar ve genek amaçlı register'da bulunan değeri de ilave eder. (1230h*10h+45h=12345h)
+	
+			2 register tarafından oluşturulmuş adrese efektif adres denir. BX, SI ve DI registerları, DS ile birlikte çalışır; BP ve SP registerları ise SS ile birlikte çalışır. BH ve BL efektif adres oluşturulmasında kullanılmaz.
+			Tüm hafıza adresleri segment adresine offset adresi ilave edilmesi ile bulunur. 
+				Segment adresi: Herhangi bir 64KB lık hafıza bölümünün başlangıcını gösterir.
+				Ofset adresi: 64KB lık hafıza bölümünde herhangi bir satır belirtir.
+				Örnek: Segment register’ı 1000h değerine sahip ise, 10000h ile 1FFFFh aralığında bir hafıza adresine karşılık gelir. 64KB lık bir aralıktır.
+					Offset değeri F000h ise 1F000h (10000h+F000h) adresindeki hafıza satırına karşılık gelir.
+				Başlangıç adresi belli ise bitiş adresi FFFFh ilave edilerek bulunur çünkü segment registerı 64kb lık bir bölümü işaretler.
+				Ofset adresi segment adresine ilave edilir. Segment ve ofset adressleri 1000:2000 biçiminde de yazılabilir (1000h:2000h). 
+				
+			- Ön tanımlı segment ve ofset registerları - 
+				CS:IP
+					CS kod bölümünün başlangıcını ifade eder. IP ise kod bölümü içerisindeki bir sonraki komutun bulunduğu hafıza adresini işaret eder.
+					Eğer CS = 1400h ve IP = 1200h ise cpu bir sonraki komutu 14000h+1200h = 15200h adresinden okur.
+				SS:SP | SS:BP
+					Stack bölümünü kullanan komutlar kullanır.	
+					DS registerı, BX, DI, SI 8 veya 16 bitlik sayı ile birlikte.
+					ES:DI - > String komutları için.
+			- Özel amaçlı registerlar - 	
+					

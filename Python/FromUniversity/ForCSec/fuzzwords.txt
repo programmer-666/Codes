@@ -1,0 +1,5 @@
+admin
+/admin
+robots.txt
+admin.php
+/robots.txt

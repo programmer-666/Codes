@@ -1,0 +1,351 @@
+/* FONT */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.eot');
+    src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg'),
+         url('../fonts/Ubuntu-Regular.ttf') format('truetype'),
+         url('../fonts/Ubuntu-Regular.woff') format('woff'),
+         url('../fonts/Ubuntu-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* FONT */
+/* ALL */
+*{
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+}
+/* ALL */
+.global{
+    position: relative;
+    width: 1200px;
+    height: 1000px;
+    background-color:#eaeaf6;/*#eaeaf6*/
+    margin: 0 auto 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #eaeaf6;
+}
+/* HEADER */
+header{
+    width: 1180px;
+    height: 43px;
+    background-color: #030d16;
+    padding: 10px;
+    margin: 0 0 5px 0;
+}
+header dl{
+    float: left;
+    margin: 12px 0 0 10px;
+}
+header dl dt{
+    float: left;
+    margin: 0 10px 0 10px;
+}
+header dl dt a{
+    text-decoration: none;
+    color: #eaeaf6;
+    border-radius: 6%;
+    transition: 0.5s;
+    padding: 3px;
+    opacity: 0.8;
+}
+header dl dt a:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+    border-radius: 6%;
+    opacity: 1;
+}
+header h3{
+    float: right;
+    color: #eaeaf6;
+    opacity: 0.3;
+    margin: 7px 0 0 0;
+    transition: 1s;
+}
+header h3:hover{
+    transition: 1s;
+    float: right;
+    color: #eaeaf6;
+    opacity: 1;
+    margin: 7px 0 0 0;
+}
+.icon{
+    float: left;
+    width: 40px;
+    border: 1px #eaeaf6 solid;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.icon:hover{
+    transition: 0.5s;
+    opacity: 1;
+    float: left;
+    border: 1px #eaeaf6 solid;
+}
+/* HEADER */
+/* SPACING  */
+.spacing{
+    width: 1200px;
+    height: 82px;
+    padding: 10px 0 10px 0;
+    margin-top: 5px;
+    background-color: #030d16;
+}
+.spacing dl{
+    float: left;
+    display: block;
+    margin: 0 56px 0 56px;
+}
+.spacing dl dt{
+    margin: 0 150px 0 150px;
+    color: white;
+    width: 60px;
+    float: left;
+    height: auto;
+}
+.spacing dl dt span{
+    float: left;
+}
+.spacing dl dt img{
+    width: 50px;
+    border-radius: 100%;
+    padding: 5px;
+    float: left;
+    background-color: #eaeaf6;
+}
+.specialboy{
+    margin: 0 0 0 13px;
+}
+/* SPACING */
+/* MAIN */
+.main{
+    margin: 5px 0 5px 0;
+    float: left;
+    width: 1200px;
+    padding: 0 0 30px 0;
+    background-color: #030d16;
+}
+.main .post{
+    width: 1000px;
+    background-color: #eaeaf6;
+    margin: 30px auto 0 86px;
+    float: left;
+    padding: 10px;
+}
+.main .post img{
+    width: 350px;
+    float: left;
+}
+.main .post .comm{
+    width: 450px;
+    float: left;
+    padding: 13px 0 0 0;
+    height: auto;
+    background-color: #d8d8e456;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.comm form{
+    margin: 0 auto 0 70px;
+}
+.comm input{
+    border: 0;
+    width: 300px;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+}
+.comm input[type=submit]{
+    border: 0;
+    background-color: #030d16;
+    color: #eaeaf6;
+    width: 310px;
+    font-size: 15px;
+    margin: 5px 0 5px 0;
+    padding: 5px;
+}
+.comm textarea{
+    border: 0;
+    width: 300px;
+    padding: 5px;
+    margin: 5px 0 10px 0;
+}
+.main .post .card{
+    float: left;
+    margin: 0 16px 20px 16px;
+    background-color: #030d16;
+}
+.main .post h1{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.main .post .card img{
+    width: 300px;
+    height: 432px;
+    box-shadow: 10px 10px 5px black;
+    float: left;
+    opacity: 0.5;
+    
+    transition: 1s;
+}
+.main .post .card img:hover{
+    opacity: 1;
+    transition: 1s;
+}
+.main .post .specialimg{
+    width: 345px;
+    margin: 0 0 0 5px;
+    height: 438px;
+    float: left;
+}
+.main .post .postscript{
+    background-color: white;
+    color: #030d16;
+    height: 418px;
+    padding: 10px;
+    float: left;
+    margin: 0 0 0 5px;
+    width: 625px;
+}
+.main .post .postscripts{
+    background-color: #030d16;
+    color: #eaeaf6;
+    height: 418px;
+    padding: 10px;
+    float: right;
+    margin: 0 0 0 5px;
+    width: 500px;
+}
+.main .post .postscriptw{
+    background-color: #030d16;
+    color: #eaeaf6;
+    height: auto;
+    padding: 10px;
+    float: left;
+    margin: 0 0 0 0;
+    width: 980px;
+}
+.main .post .specialps{
+    background-color: #030d16;
+    color: #eaeaf6;
+    padding: 10px;
+    float: left;
+    margin: 0 0 5px 5px;
+    width: 625px;
+}
+.main .post .specialps dl{
+    float: left;
+    background-color: #eaeaf6;
+}
+.main .post .specialps dl dt{
+    float: left;
+    margin: 0 1px 0 1px;
+}
+.main .post .specialps dl dt a{
+    display: block;
+    padding: 64px 30px 64px 30px;
+    font-size: 30px;
+    margin: 0 2px 0 2px;
+    background-color: #030d16;
+}
+.main .post .specialps img{
+    float: left;
+}
+
+/* MAIN */
+/* FOOTER */
+footer{
+    width: 1200px;
+    height: 50px;
+    float: left;
+    background-color: #030d16;
+    color: #030d16;
+}
+footer span{
+    float: left;
+    background-color: #eaeaf6;
+    margin: 15px 0 0 450px;
+    border-radius: 10px;
+}
+/* FOOTER */
+/* MAINNAV */
+mainnav{
+    position: relative;
+    width: 100%;
+    margin: 30px 0 30px 0;
+    float: left;
+    height: 40px;
+    background-color: #eaeaf6;
+}
+mainnav dl{
+    float: left;
+    width: 100%;
+    background-color: #eaeaf6;
+}
+mainnav dl dt{
+    float: left;
+    padding: 10px 15px 10px 15px;
+    margin: 0 40px 0 52px;
+}
+mainnav dl dt a{
+    background-color: #eaeaf6;
+    color: #030d16;
+    transition: 0.5s;
+    padding: 10px 15px 10px 15px;
+}
+mainnav dl dt a:hover{
+    transition: 0.5s;
+    font-size: 17px;
+}
+/* MAINNAV */
+/* SCRIPT */
+.script{
+    width: auto;
+    height: auto;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;    
+}
+.script .mg img{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 50px 0 50px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.script .mg{
+    float: left;
+    margin: 50px auto 50px 105px;
+}
+/* SCRIPT */
+/* SEARCH */
+.search input{
+    border: 0;
+    width: 60px;
+    font-size: 20px;
+    opacity: 0.5;
+    border-radius: 1%;
+    padding: 3px;
+    margin: 6px 0 0 0;
+    transition: 0.5s;
+    float: right;
+}
+.search input:hover{
+    transition: 0.5s;
+    width: 250px;
+    opacity: 1;
+}
+/* SEARCH */
+.suhaarslan{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.suhaarslan:hover{
+    opacity: 1;
+    transition: 0.4s;
+}

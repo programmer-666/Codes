@@ -1,0 +1,21 @@
+{
+    "terminal1":{
+        "code":"t#1",
+        "id":1
+    }
+    ,
+    "terminal2":{
+        "code":"t#2",
+        "id":2
+    }
+    ,
+    "terminal3":{
+        "code":"t#3",
+        "id":3
+    }
+    ,
+    "terminal4":{
+        "code":"t#4",
+        "id":4
+    }
+}

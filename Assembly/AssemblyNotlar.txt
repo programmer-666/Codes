@@ -1,0 +1,46 @@
+# - - - KAYNAKLAR - - - #
+http://www.enginkuzu.org/assembly01.php
+http://teknoelektrik.com/blog-37/mikroislemcilerde-cpu-registerlari.html
+# - - - - - - - - - - - - - - - - - #
+- [1] Assembly Nedir ? -
+	Microişlemci programlamada kullanılan düşük seviye programlama dili. İşletim sistemlerinde çalıştırılan çoğu program makine dilindedir (compile edilmiş kod).
+		Not: Notlar daha çok teknik detaylar içermektedir. Ekseri yorum ve açıklamalar bulunmamaktadır.
+	Örnek bir assembly kodu;
+		0C85:0100 B402 MOV AH,02
+		Kodu inceleyelim.
+			0C85:0100 -> Bellek lokasyonu. İlgili kodların şu anda hangi bellek adresinde bulunduğunu gösterir.
+			MOV AH, 02 -> Assembly kodu. Ah registerine 02h (hexadecimal) değerini atar.
+			B402 -> Bu assembly kodunun makina dilindeki hali. Hexadecimal sistemdeki 2 Byte'lık bilgidir ve "MOV AH, 02" ye denktir.
+
+	- [1.1] Registerlar - 
+		Registerler işlemci çalışması sırasında değişik amaçlar için kullanılan değişkenlerdir. Bellekteki verilere ulaşmak zaman alacağından registerları kullanmak bize hız kazandırır.
+		Sınırlı sayıdadırlar. Genel amaçlar veya özel amaçlar için kullanılan çeşitleri bulunmaktadır.
+		i386 uyumlu işlemcinin registerları (İlk iki tablo iç içedir):
+
+			<-32BitRegister->	<-16BitRegister->	<-16BitRegister->	<-32BitRegister->
+			EAX		AH	AL	CS		EIP
+			EBX		BH	BL	DS		EFLAGS
+			ECX		CH	CL	SS		-
+			EDX		DH	DL	ES		-
+			EBP		BP	-	FS		-
+			ESP		SP	-	GS		-
+			ESI		SI	-	-		-
+			EDI		DI	-	-		-
+		
+			DataRegisters: EAX,EBX,ECX,EDX,AX,BX,CX,DX,AH,AL,BH,BL,CH,CL,DH,DL.
+			PointerRegisters: EBP,ESP,BP,SP.
+			IndexPointers: ESI,EDI,SI,DI.
+			SegmentRegisters: CS,DS,SS,ES,FS,GS.
+
+		Tablolar 32bit işlemciye ait registerları göstermektedir. Bu işlemci 8086 tabanlı olduğundan geriye uyumludur.Fakat 8086 işlemcisi 8 bitlik bir işlemcidir. 
+		Bu nedenle gerçekte EAX şeklindeki bir register 32 bittir, fakat bu registerin ilk 16 bitlik bölümü AX şeklinde ifade edilir. 
+		Bu AX şeklindeki 16 bitlik bölüm ise kendi içinde ilk 8 bitlik bölüm AL, sonraki 8 bitlik bölüm AH olmak üzere yine alt bölümleri bulunur. 
+		Yani 4 byte bilgi depolamak istersem EAX,EBX gibi 32 bitlik; 2 byte bilgi depolamak istersem AX,BX gibi 16 bit; eger 1 byte bilgi depolamak istersem AH,AL,BH,BL registerlerini kullanabilirim. 
+		Sadece şunu unutmayın, AX,AH,AL registerleri sadece EAX registerinin alt bölümleridir. Başka yerde depolanmazlar. Gerekli olduğunda alt registerlere ulaşılabilir fakat gerçekte esas olan EAX dir. 
+		Pointer ve index registerlerinde de alt bölümler bulunur. Sınıflandırma tablosunu inceleyiniz. Kafa karıştırma olasılığına karşılık aşağıda registerleri boyutlarına göre de sınıflandırdım.
+
+		32Bit(4Byte)Registers: EAX,EBX,ECX,EDX,EBP,ESP,ESI,EDI,EIP,EFLAGS.
+		16bit(2Byte)Registers: AX,BX,CX,DX,BP,SP,SI,DI,CS,DS,SS,ES,FS,GS,IP,FLAGS.
+		8bit(1Byte)Registers: AH,AL,BH,BL,CH,CL,DH,DL.
+		
+		Not: Registerlar ile ilgili detaylı döküman -> registers.txt
