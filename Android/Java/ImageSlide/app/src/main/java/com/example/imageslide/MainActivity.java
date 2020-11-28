@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(count<images.size()){
+                if(count<images.size()-1){
                     if (count>images.size()){
                         count=0;
                         iv.setImageDrawable(images.get(count));

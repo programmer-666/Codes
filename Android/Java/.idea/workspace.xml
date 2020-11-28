@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11d95b1b-2685-445e-8a95-9102457a1c4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataTransfer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcR/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CalcR/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcR/app/src/main/java/com/example/calcr/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalcR/app/src/main/java/com/example/calcr/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalcR/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CalcR/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frapp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Frapp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageSlide/app/src/main/java/com/example/imageslide/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImageSlide/app/src/main/java/com/example/imageslide/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediaplayerV3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MediaplayerV3/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/androidTest/java/com/example/reinclude/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/java/com/example/reinclude/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/layout/test_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/app/src/test/java/com/example/reinclude/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReInclude/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/androidTest/java/com/example/tablayouttest/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/java/com/example/tablayouttest/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/java/com/example/tablayouttest/MainFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/layout/fragment_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/app/src/test/java/com/example/tablayouttest/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/androidTest/java/com/example/tablayouttest3/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/java/com/example/tablayouttest3/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/java/com/example/tablayouttest3/tabbeda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/java/com/example/tablayouttest3/ui/main/PageViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/java/com/example/tablayouttest3/ui/main/PlaceholderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/java/com/example/tablayouttest3/ui/main/SectionsPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/layout/activity_tabbeda.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/layout/fragment_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/layout/fragment_tabbeda.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/app/src/test/java/com/example/tablayouttest3/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/androidTest/java/com/example/tablayouttest5/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/java/com/example/tablayouttest5/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/app/src/test/java/com/example/tablayouttest5/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TablayoutTest5/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/androidTest/java/com/example/tabex/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/java/com/example/tabex/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/java/com/example/tabex/ui/main/PageViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/java/com/example/tabex/ui/main/PlaceholderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/java/com/example/tabex/ui/main/SectionsPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/layout/fragment_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/app/src/test/java/com/example/tabex/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tabex/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1kwKCn4zzRtJH3Pn2mVM3YFST2w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="B:/ASSdks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SynMusic" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11d95b1b-2685-445e-8a95-9102457a1c4a" name="Default Changelist" comment="" />
+      <created>1606606088207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606606088207</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1606606098527">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.303.1360.738@0.0.1920.1050" timestamp="1606606098527" />
+  </component>
+</project>

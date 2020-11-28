@@ -26,57 +26,58 @@
         android:inputType="number" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/toplama" />
 
         <RadioButton
             android:id="@+id/radioButton2"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/cikarma" />
 
         <RadioButton
             android:id="@+id/radioButton3"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/carpma" />
 
         <RadioButton
             android:id="@+id/radioButton4"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/bolme" />
 
         <RadioButton
             android:id="@+id/radioButton5"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/uslama" />
 
         <RadioButton
             android:id="@+id/radioButton6"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/mod" />
 
         <RadioButton
             android:id="@+id/radioButton7"
-            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/kok" />
 
     </RadioGroup>
@@ -91,10 +92,4 @@
         android:textSize="40dp"
         android:text="Y O R E K O K" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_marginTop="100dp"
-        android:layout_height="wrap_content"
-        android:text="calc" />
 </LinearLayout>
