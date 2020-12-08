@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#1c1c1c"
+    android:padding="25dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/albumeLogo"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/killemall" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/startDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginRight="30dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/playPauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="60sp"
+            android:background="#1c1c1c"
+            android:text="@string/playorpause" />
+
+        <TextView
+            android:id="@+id/stopTextDate"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/hitthB"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hit The Lights"/>
+            <Button
+                android:id="@+id/fourB"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="The Four Horseman"/>
+            <Button
+                android:id="@+id/motorB"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Motorbreath"/>
+            <Button
+                android:id="@+id/jumpB"
+                android:background="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Jump In The Fire"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

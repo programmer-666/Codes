@@ -8,10 +8,12 @@ import android.media.MediaPlayer;
 import java.util.Timer;
 import java.util.TimerTask;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,10 +26,13 @@ public class MainActivity extends AppCompatActivity {
     boolean flag = true;
     int lastMpId = 0;
     int count = 0;
+    SeekBar skb;
     List<Button> buttons = new ArrayList<>();
     List<MediaPlayer> mediaPlayers = new ArrayList<>();
     String[] names = {"Hit The Lights","Jump In The Fire","Metal Militia","Motor Breath", "No Remorse", "Phantom Lord", "Pulling Teeth", "Seek And Destroy", "The Four Horseman", "Whiplash"};
     Button pb, re;
+
+    int time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +59,17 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayers.add(MediaPlayer.create(getBaseContext(),R.raw.thefourhorseman));
         mediaPlayers.add(MediaPlayer.create(getBaseContext(),R.raw.whiplash));
 
+        // # SEEKBAR STUFF
+        skb.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                time = skb.getProgress()*1000;
+                mediaPlayers.get(lastMpId).seekTo(time);
+                return false;
+            }
+        });
+        // # SEEKBAR STUFF
+
         for (int i = 0;i<10;i++){
             buttons.add(new Button(getBaseContext()));
             buttons.get(i).setText(""+names[i]);
@@ -69,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
                         flag = false;
                         pb.setText("||");
                         mediaPlayers.get(lastMpId).start();
+                        skb.setMax(mediaPlayers.get(lastMpId).getDuration()/1000);
                     }else{
                         flag = true;
                         pb.setText(">");

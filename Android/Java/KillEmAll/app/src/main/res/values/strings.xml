@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KillEmAll</string>
+    <string name="playorpause"><![CDATA[>]]></string>
+    <string name="turn">#</string>
+</resources>
