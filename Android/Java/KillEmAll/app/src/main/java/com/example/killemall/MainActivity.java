@@ -102,11 +102,8 @@ public class MainActivity extends AppCompatActivity {
                 microToMinute(mp.getDuration()/1000, stoptext);
                 skb.setProgress(val);
             }
-
             @Override
-            public void onFinish() {
-
-            }
+            public void onFinish(){}
         }.start();
     }
     void playerStart(){
