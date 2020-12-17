@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:SQLite}/player_infos.db",
+            "name": "player_infos.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "player_infos.db",
+            "database": "${workspaceFolder:SQLite}/player_infos.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "player_infos.db",
+            "database": "${workspaceFolder:SQLite}/player_infos.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
