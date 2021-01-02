@@ -1,0 +1,3 @@
+include ':BytecoinManagement-release'
+include ':app'
+rootProject.name = "SQLiteClassPrototype"

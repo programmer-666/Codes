@@ -1,29 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c33d9967-2e33-4538-a83a-8bb08810730a" name="Default Changelist" comment="" />
+    <list default="true" id="ba273790-c766-4fd2-b95c-8e2f70c1ed88" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DataTransfer/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/java/com/example/databasetest/Bytecoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/java/com/example/databasetest/statusActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/drawable/button_gback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/drawable/bytecoinlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/drawable/gback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/layout/activity_status.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/python_side/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/python_side/modules/bytecoin.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/DatabaseTest/python_side/modules/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/SQLITEDatabaseClassTest/app/src/main/java/com/example/sqlitedatabaseclasstest/BytecoinMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/app/src/main/res/layout/profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/Tabtest/app/src/main/res/layout/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Android/Java/sqlite/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/Java/DataTransfer/app/src/main/java/com/example/datatransfer/Sharp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/Java/DataTransfer/app/src/main/java/com/example/datatransfer/Sharp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/Java/DataTransfer/app/src/main/res/layout/activity_sharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/Java/DataTransfer/app/src/main/res/layout/activity_sharp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Android/Java/DataTransfer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Android/Java/DataTransfer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bytecoin/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1jR1qZQZP3r4VeYBEk5bocVExrA" />
+  <component name="ProjectId" id="1mFCRBxp7zADT6vtjLreQyZgxrX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.pandemic.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.bytecoin.Main" />
       <module name="Java" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -32,47 +148,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c33d9967-2e33-4538-a83a-8bb08810730a" name="Default Changelist" comment="" />
-      <created>1603752284027</created>
+      <changelist id="ba273790-c766-4fd2-b95c-8e2f70c1ed88" name="Default Changelist" comment="" />
+      <created>1609079947257</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603752284027</updated>
+      <updated>1609079947257</updated>
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="739" y="266" key="FileChooserDialogImpl" timestamp="1603827694543">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="739" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603827694543" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1603813877679">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603813877679" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1603813877679">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603813877679" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1603813877679">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603813877679" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1603813877679">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603813877679" />
-    <state x="342" y="145" key="new project wizard" timestamp="1603827696436">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="342" y="145" key="new project wizard/0.0.1920.1050/1920.174.1440.870@0.0.1920.1050" timestamp="1603827696436" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

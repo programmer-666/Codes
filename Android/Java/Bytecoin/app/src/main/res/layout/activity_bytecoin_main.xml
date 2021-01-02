@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/gback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bytecoinMain">
+
+    <LinearLayout
+        android:background="#0C2F49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/walletIDText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="WALLETID"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bycAmountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="BYCAMOUNT"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/refreshImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:onClick="refreshImage"
+            android:src="@drawable/refresh" />
+
+    </LinearLayout>
+    <!--
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bytecoinlogo"
+        android:alpha="0.04"
+        android:layout_marginTop="200dp"/>
+    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0C2F49"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:alpha="0.8"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dstWalletID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Destination Wallet"
+            android:inputType="number"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="numberSigned" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:background="#D1D1D1"
+            android:textColor="#0C2F49"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="send" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.8"
+        android:background="#0C2F49"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/scrollViewLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>

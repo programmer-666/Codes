@@ -49,16 +49,7 @@ public class Sharp extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 switch (tab.getPosition()){
-                    case 0:
-                        includeitem.setVisibility(View.VISIBLE);
-                        break;
-                    case 1:
-                        includeitem1.setVisibility(View.VISIBLE);
-                        TextView usrn = (TextView)includeitem1.findViewById(R.id.textView8);
-                        TextView passw = (TextView)includeitem1.findViewById(R.id.textView9);
-                        usrn.setText(txv.getText().toString());
-                        passw.setText(getIntent().getStringExtra("password").toString());
-                        break;
+
                     case 2:
                         includeitem2.setVisibility(View.VISIBLE);
                         break;
