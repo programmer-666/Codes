@@ -25,54 +25,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a25c7a3-6dd8-4c7d-baa0-ddfa8939d719" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DataTransfer/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/java/com/example/databasetest/Bytecoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/java/com/example/databasetest/statusActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/drawable/button_gback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/drawable/bytecoinlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/drawable/gback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/layout/activity_status.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/python_side/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/python_side/modules/bytecoin.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DatabaseTest/python_side/modules/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/app/src/main/res/layout/profile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tabtest/app/src/main/res/layout/settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sqlite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/SqliteClass/SqliteClass.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTransfer/app/src/main/java/com/example/datatransfer/Sharp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTransfer/app/src/main/java/com/example/datatransfer/Sharp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTransfer/app/src/main/res/layout/activity_sharp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTransfer/app/src/main/res/layout/activity_sharp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DataTransfer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../DataTransfer/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KillEmAll/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bytecoin/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bytecoin/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/BytecoinManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/BytecoinManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/bytecoinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bytecoin/app/src/main/java/com/example/bytecoin/bytecoinMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bytecoin/app/src/main/res/drawable-v24/gback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bytecoin/app/src/main/res/drawable-v24/gback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +115,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DatabaseTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqlite" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -166,9 +124,7 @@
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="SQLiteClassBeta.app" />
@@ -223,9 +179,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="SQLiteClassBeta [exportJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -369,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="709" y="361" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050/1920.306.1360.738@0.0.1920.1050" timestamp="1609116641880" />
-    <state x="740" y="267" key="FileChooserDialogImpl" timestamp="1609193202892">
+    <state x="740" y="267" key="FileChooserDialogImpl" timestamp="1611240209999">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="267" key="FileChooserDialogImpl/0.0.1920.1050/1920.306.1360.738@0.0.1920.1050" timestamp="1609193202892" />
+    <state x="740" y="267" key="FileChooserDialogImpl/0.0.1920.1050/1920.306.1360.738@0.0.1920.1050" timestamp="1611240209999" />
     <state width="1316" height="182" key="GridCell.Tab.0.bottom" timestamp="1609118876977">
       <screen x="1920" y="306" width="1360" height="738" />
     </state>

@@ -2,7 +2,6 @@ package com.example.bytecoin;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.widget.Toast;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 
 /*
  *
- * BytecoinManagement Class Version 1.9022
+ * BytecoinManagement Class Version 1.92
  * suhaarslan.com (c) 2020-2021
  *
  */
@@ -172,7 +171,6 @@ public class BytecoinManagement {
                 transaction_dates.add(cursor.getString(2));
                 amounts.add(cursor.getString(3));
             }
-
             return logs;
         }
     }

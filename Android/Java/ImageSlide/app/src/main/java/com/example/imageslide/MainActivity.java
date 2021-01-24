@@ -23,14 +23,16 @@ public class MainActivity extends AppCompatActivity {
         left = (Button)findViewById(R.id.leftb);
         right = (Button)findViewById(R.id.rightb);
         iv = (ImageView)findViewById(R.id.imageView);
+
         images.add(getResources().getDrawable(R.drawable.chem));
         images.add(getResources().getDrawable(R.drawable.hacker));
         images.add(getResources().getDrawable(R.drawable.image));
+
         iv.setImageDrawable(images.get(count));
         left.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(images.size()>count){
+                //if(images.size()>count){
                     if (count>0){
                         count-=1;
                         iv.setImageDrawable(images.get(count));
@@ -38,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
                         count=images.size()-1;
                         iv.setImageDrawable(images.get(count));
                     }
-                }
+                //}
             }
         });
         right.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(count<images.size()-1){
+                //if(count<images.size()-1){
                     if (count>images.size()){
                         count=0;
                         iv.setImageDrawable(images.get(count));
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                         count+=1;
                         iv.setImageDrawable(images.get(count));
                     }
-                }
+                //}
             }
         });
     }

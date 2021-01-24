@@ -27,9 +27,11 @@ public class MainActivity extends AppCompatActivity {
         /*
         sqLiteDatabase = openOrCreateDatabase("bytecoin.db", MODE_PRIVATE, null);
         bytecoinManagement = new BytecoinManagement(sqLiteDatabase);
+
         bytecoinManagement.databaseQueries.createTables();
         bytecoinManagement.userQueries.insertUser("_Technician", "q123");
         bytecoinManagement.userQueries.insertUser("JamesBond", "y123");
+
         bytecoinManagement.closeDatabaseConnection();
         */
         // CREATING DATABASE

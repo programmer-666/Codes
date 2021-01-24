@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         starttext = findViewById(R.id.startDateText);
         stoptext = findViewById(R.id.stopTextDate);
 
-        skb = findViewById(R.id.seekBar);
+        skb = (SeekBar) findViewById(R.id.seekBar);
 
         mp = MediaPlayer.create(getBaseContext(), R.raw.hitthelights);
 

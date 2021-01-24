@@ -72,7 +72,7 @@ public class bytecoinMain extends AppCompatActivity {
                 }
                 bytecoinManagement.closeDatabaseConnection();
 
-                refresStatus();
+                //refresStatus();
             }
         });
     }
@@ -88,7 +88,7 @@ public class bytecoinMain extends AppCompatActivity {
 
         textViews = new ArrayList<>();
         scLinearLayout.removeAllViews();
-        for(int i = 0;i<bytecoinManagement.databaseMethods.getTableLen("LOGS");i++){
+        for(int i = 0;i < bytecoinManagement.databaseMethods.getTableLen("LOGS");i++){
             textViews.add(new TextView(this));
             textViews.get(i).setText((String)bytecoinManagement.walletQueries.getLogs().get(0).get(i)+" > "+(String)bytecoinManagement.walletQueries.getLogs().get(1).get(i)+" [ "+(String)bytecoinManagement.walletQueries.getLogs().get(2).get(i)+" ] "+bytecoinManagement.walletQueries.getLogs().get(3).get(i)+" BYC");
             textViews.get(i).setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
