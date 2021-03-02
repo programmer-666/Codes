@@ -1,0 +1,16 @@
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.exe
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.deps.json
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.runtimeconfig.json
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.runtimeconfig.dev.json
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.dll
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KSPKRPCTEST.pdb
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\KRPC.Client.dll
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.csprojAssemblyReference.cache
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.AssemblyInfoInputs.cache
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.AssemblyInfo.cs
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.csproj.CoreCompileInputs.cache
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.csproj.CopyComplete
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.dll
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.pdb
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\obj\Debug\netcoreapp3.1\KSPKRPCTEST.genruntimeconfig.cache
+E:\GitHubRepos\Codes\Csharp\KSPKRPCTEST\KSPKRPCTEST\KSPKRPCTEST\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
