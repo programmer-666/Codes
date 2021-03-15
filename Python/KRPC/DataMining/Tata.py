@@ -56,14 +56,3 @@ while (True):
     's_alt':round(ves.flight().surface_altitude, 3), 
     'sea_alt':round(ves.flight().mean_altitude, 3),
     'time_real':datetime.datetime.strftime(datetime.datetime.now(), '%X')}
-
-    """with open('tester_Data.csv', 'a') as file:
-        file.write(str(COLLECTED_DATA.items()))
-	file.write('\n')"""
-
-    cursor = sq3.cursor()
-    cursor.execute("INSERT INTO TESTER VALUES ('"+COLLECTED_DATA.get("v_name")+"','"+COLLECTED_DATA.get("v_biome")+"',"+str(COLLECTED_DATA.get("v_mass"))+","+str(COLLECTED_DATA.get("v_dry_mass"))+","+str(COLLECTED_DATA.get("v_thrust"))+","+str(COLLECTED_DATA.get("v_position_x"))+","+str(COLLECTED_DATA.get("v_position_y"))+","+str(COLLECTED_DATA.get("v_position_z"))+","+str(COLLECTED_DATA.get("v_velocity_x"))+","+str(COLLECTED_DATA.get("v_velocity_y"))+","+str(COLLECTED_DATA.get("v_velocity_z"))+","+str(COLLECTED_DATA.get("v_rotation_x"))+","+str(COLLECTED_DATA.get("v_rotation_y"))+","+str(COLLECTED_DATA.get("v_rotation_z"))+","+str(COLLECTED_DATA.get("v_direction_x"))+","+str(COLLECTED_DATA.get("v_direction_y"))+","+str(COLLECTED_DATA.get("v_direction_z"))+","+str(COLLECTED_DATA.get("v_f_velocity_x"))+","+str(COLLECTED_DATA.get("v_f_velocity_y"))+","+str(COLLECTED_DATA.get("v_f_velocity_z"))+","+str(COLLECTED_DATA.get("v_f_speed"))+","+str(COLLECTED_DATA.get("v_f_center_of_mass_x"))+","+str(COLLECTED_DATA.get("v_f_center_of_mass_y"))+","+str(COLLECTED_DATA.get("v_f_center_of_mass_z"))+","+str(COLLECTED_DATA.get("v_f_pitch"))+","+str(COLLECTED_DATA.get("v_f_heading"))+","+str(COLLECTED_DATA.get("v_f_roll"))+",'"+str(COLLECTED_DATA.get("v_r_names"))+"','"+str(COLLECTED_DATA.get("v_r_amount"))+"',"+str(COLLECTED_DATA.get("s_alt"))+","+str(COLLECTED_DATA.get("sea_alt"))+",'"+str(COLLECTED_DATA.get("time_real"))+"')")
-    sq3.commit()
-    sq3.close()
-
-    break
