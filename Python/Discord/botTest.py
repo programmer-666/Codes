@@ -17,4 +17,3 @@ async def on_member_join(member):
 async def on_member_remove(member):
     print(f'{member} gitti')
     
-cl.run('ODI0NjQ0MzYyMzI3MTYyODgx.YFyX6Q.yQHaNuzDu91yzVGpOtBlG2BaVZQ')
