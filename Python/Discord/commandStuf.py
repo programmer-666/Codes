@@ -42,4 +42,3 @@ async def otm(ctx, *, get):
     await m.delete()
     #await ctx.channel.purge(limit=1, check=is_me)
 
-cl.run('ODI0NjQ0MzYyMzI3MTYyODgx.YFyX6Q.yQHaNuzDu91yzVGpOtBlG2BaVZQ')
