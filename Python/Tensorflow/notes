@@ -1,0 +1,48 @@
+Perceptron: Artifical Neuron.
+    input1 * w > function -> out
+
+Sigmoid
+    0-1 arası değer alır
+    genelde sınıflandırmada kullanılır
+
+Tanh 
+    hiperbolik tanjant
+    -1,1 arası değer alır
+    negatif değerlerle daha geniş bir kapsam alanı sağlar ve genelde sınıflandırmada kullanılır
+
+relu
+    rectified linear unit
+    0 ile sonsuz arası değer alır
+    sık kullanılır
+
+linear
+    f(x) = x
+    sonsuz değer alabilir fakat non-linear olmaması sebebiyle modellerde sorunlara yol açabilir
+
+classification: sınıflandırma.
+
+regresyon
+    bağlanım demektir
+    iki yada daha fazla veri arasındaki doğrusal ilişkiyi bulmakta kullanılır
+
+maliyet fonksiyonu
+    öğrenme sırasında gerçek veriden ne kadar uzakta oluduğumu gösterir
+    çıkan değer ne kadar az ise o kadar iyidir
+    z = ag+b
+    f(z)=tahminiDeger (nörünun)
+    quadratik maliyet = sum(gerçekDeğer-tahminiDeger)**2/n
+    cross entropy maliyet = (-1/n)*sum(gerçekDeğer*ln(tahminiDeger)+(1-gerçekDeger)*ln(1-tahminiDege))
+
+gradient descent
+    bir fonksiyonun min değerini bulur
+    maliyet fonksiyonunu minimize etmekte kullanılır
+    step size belirlenir bu öğrenme seviyesidir (0.03 gibi...)
+
+noise: verilerdeki bozukluk.
+
+batch size: fazla sayılardaki verilerin parça halindeki miktarı
+
+epoch: devir, çalışma sayısı. fazla epoch overfittinge sebep olur. overfitting kabaca veriyi ezberleme.
+
+mse regression: Basitçe, ortalama kare hata bir regresyon eğrisinin bir dizi noktaya ne kadar yakın olduğunu söyler. MSE, bir makine öğrenmesi modelinin, tahminleyicinin performansını ölçer, her zaman pozitif değerlidir ve MSE değeri sıfıra yakın olan tahminleyicilerin daha iyi bir performans gösterdiği söylenebilir.
+https://veribilimcisi.com/2017/07/14/mse-rmse-mae-mape-metrikleri-nedir/
