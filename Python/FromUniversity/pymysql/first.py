@@ -1,8 +1,7 @@
 import pymysql
-from random import randint
-con = pymysql.connect('127.0.0.1', 'root', 'e6m666_?*?', 'testbase')
+con = pymysql.connect(host='sql280.main-hosting.eu', user='u347527466_pod_admin', password='x.01*!A?', db='u347527466_POD', port=3306)
 with con:
     cur = con.cursor()
-    cur.execute("SELECT x,y,z FROM spacetime WHERE x=0")
+    cur.execute("SELECT * FROM n11_stok")
     f = cur.fetchall()
 print(len(f))

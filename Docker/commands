@@ -1,0 +1,15 @@
+# Kullaným #
+	ps -a -> Çalýþan konteynerleri gösterir.
+	run --rm -i -t -p x:y <container> -> --rm ifadesi konteyner kapandýðýnda silinsin anlamýnda, -i interaktif, -t tty, -p 8880:80 port açmak için.
+		% docker run --rm -it ubuntu
+		% docker run -d -p 8880:80 --restart=always --name=web nginx -> Nginx dockerýný daemon olarak (subproc) çalýþtýrýr, --restart parametresi ise imaj çökerse yeniden baþlat anlamýnda.
+	images -> Kurulu imajlarý gösterir.
+	pull <img> -> Hub üzerinden imaj indirme.
+	rmi <img> -> Ýmaj silme.
+	logs -f --since 10s <containerName> -> Son 10 saniye içerisinde oluþan loglarý gösterir.
+	exec -it <id/name> <command> -> Container içerisine girmek içocker 
+		% docker exec -it web bash
+		% docker exec -it web date
+	rm -f <id/name> -> Çalýþan konteyneri siler.
+	run --rm -it -p 8880:80 -v /Desktop/files:/var/www/html nginx -> Nginx konteyneri (-v) içerisine dosya mount eder.
+	
