@@ -1,0 +1,3 @@
+python virtualenv.exe my_env
+my_env\Scripts\activate.bat
+my_env\Scripts\deactivate.bat
