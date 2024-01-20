@@ -1,2 +1,2 @@
 # Codes
-Codes prepared in various programming languages.
+Codes prepared in various programming languages
