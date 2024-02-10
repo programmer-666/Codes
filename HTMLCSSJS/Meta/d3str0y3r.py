@@ -1,4 +1,6 @@
 import os
+
+
 class destroyer:
     def __init__(self, key, FolderPath):
         self.__key = key
